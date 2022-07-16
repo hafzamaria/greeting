@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1></h1>
+  <div class="one">
+    <form class="" onsubmit="Check(); return false ;">
+        <label class="two" for="letter">Greetings!</label><br>
+        <input class="three" type="number" id="letter" placeholder="enter hour 1-24">
+        <br>
+        <br>
+        <button class="but" type="submit">Click</button>
+        
+    </form>
+  </div>
+    <p id="result"></p>
+
+
+
+
+    
+
+    <script>
+    function Check() {
+
+    let letter = +document.querySelector("#letter").value;
+
+        if (letter <= 5 || letter <=9){
+                   document.querySelector("#result").innerHTML="Good Morning.." ;
+        }else if (letter <=10 || letter <=16){
+                 document.querySelector("#result").innerHTML="Good afternoon" ; 
+        } else if (letter <=17 || letter <=24) {
+                         document.querySelector("#result").innerHTML="Good night.." ;
+        }else {
+                    document.querySelector("#result").innerHTML="Invalid timing" } 
+        } </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

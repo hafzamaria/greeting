@@ -1,0 +1,57 @@
+body{
+    background-color:aqua; 
+    /* border: 2px solid black; */
+    /* width: 1000px; */
+    /* height: 600px; */
+}
+.one{
+    text-align: center;
+
+}
+.two{
+    font-size: 170px;
+}
+.three{
+    background-color:darkcyan;
+    height:30px;
+    width: 800px;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-top: 30px;
+
+}
+
+ .three:hover {background-color:white;
+    width: 1000px;} 
+
+
+.but{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 725px;
+    margin-top: 20px;
+   background-color: azure;
+
+}
+
+.but:hover {
+    background-color: blue;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+font-size: 40px;}
+    
+#result{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 295px;
+    color: yellow;
+}
+ #result:hover{
+
+ font-size:100px ;
+ color: white;
+    
+ } 
